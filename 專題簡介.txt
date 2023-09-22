@@ -1,0 +1,27 @@
+觀看者您好，
+
+此專案為我們在資展國際(原資策會)時所開發的期中專題，此專題是 "攀岩用品店網路電商" 的後台管理系統，我們小組一共6人，我是擔任組員的部分。
+
+期中專題開發時長約1周(~2023/07/10)，是用ASP.NET Web MVC開發。
+
+我在期中專題負責的是"商品管理系統"，負責商品列表的管理、上下架、增刪查改，後台ORM我使用Dapper處理，且採三層式架構。
+
+以下為您告知我負責的程式碼部分:
+前端:
+iSpan.MidtermProject/Bump.EStore.MVC/Views/Products/
+
+後端:
+Controller: iSpan.MidtermProject/Bump.EStore.MVC/Controllers/ProductsController.cs
+Repositories: iSpan.MidtermProject/Bump.EStore.Infrastructure/Repositories/DapperRepositories/ProductRepository.cs
+Services: iSpan.MidtermProject/Bump.EStore.Core/Services/ProductsService.cs
+Dtos: iSpan.MidtermProject/Bump.EStore.Core/Dtos/Products/
+ViewModels: iSpan.MidtermProject/Bump.EStore.MVC/ViewModels/Products/
+Interfaces: iSpan.MidtermProject/Bump.EStore.Infrastructure/Repositories/Interfaces/IProductsRepository.cs
+Criteria: iSpan.MidtermProject/Bump.EStore.Infrastructure/Criteria/ProductCriteria.cs
+
+另外期末專題的資訊如下:
+https://github.com/ricky2117/iSpan.FinalProject
+https://www.youtube.com/watch?v=RaOVYK3qG3M&ab_channel=%E8%B3%87%E5%B1%95%E5%9C%8B%E9%9A%9B%E4%B8%AD%E5%A3%A2%E4%B8%AD%E5%BF%83
+此影片為期末專題發表，我的部分在(7:18~11:30)
+
+以上，謝謝您的閱覽。
